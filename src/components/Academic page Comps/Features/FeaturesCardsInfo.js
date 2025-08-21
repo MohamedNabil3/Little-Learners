@@ -1,7 +1,7 @@
 const featureCardsInfo = [
   {
     img: {
-      imgsrc: "../../../../../Images/Acdemic imgs/Icon Container (2).png",
+      imgsrc: "myImages/Icon Container (2).png",
       top: "-1.5em",
       left: "",
     },
@@ -11,7 +11,7 @@ const featureCardsInfo = [
   },
   {
     img: {
-      imgsrc: "../../../../../Images/Acdemic imgs/Icon Container (1).png",
+      imgsrc: "myImages/Icon Container (1).png",
       top: "-1.5em",
       left: "",
     },
@@ -21,7 +21,7 @@ const featureCardsInfo = [
   },
   {
     img: {
-      imgsrc: "../../../../../Images/Acdemic imgs/Icon Container.png",
+      imgsrc: "myImages/Icon Container.png",
       top: "-1.5em",
       left: "",
     },
@@ -31,7 +31,7 @@ const featureCardsInfo = [
   },
   {
     img: {
-      imgsrc: "../../../../../Images/Acdemic imgs/Icon Container (3).png",
+      imgsrc: "myImages/Icon Container (3).png",
       top: "-1.5em",
       left: "",
     },
@@ -41,7 +41,7 @@ const featureCardsInfo = [
   },
   {
     img: {
-      imgsrc: "../../../../../Images/Acdemic imgs/Icon Container (4).png",
+      imgsrc: "myImages/Icon Container (4).png",
       top: "-1.5em",
       left: "",
     },
@@ -51,7 +51,7 @@ const featureCardsInfo = [
   },
   {
     img: {
-      imgsrc: "../../../../../Images/Acdemic imgs/Icon Container (5).png",
+      imgsrc: "myImages/Icon Container (5).png",
       top: "-1.5em",
       left: "",
     },
