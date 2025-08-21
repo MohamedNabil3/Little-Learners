@@ -1,0 +1,30 @@
+.CardContainer {
+  position: relative;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 0 1.3em;
+  box-shadow: 5px 5px 4px #000000;
+  border: 1px solid #000000;
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+
+/* Tablet View (2 cards per row) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .CardContainer {
+    width: calc(50% - 2em);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .CardContainer {
+    width: calc(33.333% - 2em);
+  }
+}
+
+@media (min-width: 1024px) {
+  .CardContainer {
+    width: calc(33.333% - 2em);
+  }
+}

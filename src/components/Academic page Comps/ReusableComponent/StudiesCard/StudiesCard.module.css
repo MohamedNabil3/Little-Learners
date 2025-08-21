@@ -1,0 +1,32 @@
+.StudiesCard {
+  position: relative;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 4px #000000;
+  border: 1px solid #000000;
+  margin-bottom: 3em;
+  cursor: pointer;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+/* Tablet View (2 cards per row) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .StudiesCard {
+    width: calc(50% - 2em);
+  }
+}
+
+/* Laptop View (3 cards per row) */
+@media (min-width: 992px) and (max-width: 1023px) {
+  .StudiesCard {
+    width: calc(33.333% - 1em);
+  }
+}
+
+@media (min-width: 1024px) {
+  .StudiesCard {
+    width: calc(33.333% - 1em);
+  }
+}

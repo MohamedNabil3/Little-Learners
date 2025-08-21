@@ -1,0 +1,23 @@
+.academics-section {
+  position: relative;
+  padding: 30px 30px 50px;
+  border-radius: 10px;
+  max-width: 90%;
+  margin: 0 auto;
+  box-shadow: 7px 7px 4px #000000;
+  border: 1px solid #000000;
+  margin-bottom: 3em;
+  background-color: #fff;
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .academics-section {
+    max-width: 85%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .academics-section {
+    max-width: 90%;
+  }
+}

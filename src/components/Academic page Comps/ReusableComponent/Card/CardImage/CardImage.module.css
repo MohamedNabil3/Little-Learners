@@ -1,0 +1,6 @@
+.CardImage {
+  position: relative;
+  width: 3em;
+  height: auto;
+  border-radius: 8px;
+}

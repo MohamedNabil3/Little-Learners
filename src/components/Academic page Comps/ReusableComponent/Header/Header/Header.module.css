@@ -1,0 +1,20 @@
+.Header {
+  font-size: 38px;
+  color: #0a0a0a;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .Header {
+    font-size: 48px;
+    height: 62px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header {
+    font-size: 58px;
+    height: 75px;
+  }
+}

@@ -1,0 +1,20 @@
+.CardParagraph {
+  font-size: 16;
+  color: #0a0a0a;
+  padding: 0 0.5em;
+  padding-right: 1em;
+  margin-bottom: 1.5em;
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .CardParagraph {
+    margin-bottom: 2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .CardParagraph {
+    font-size: 20px;
+    margin-bottom: 4.5em;
+  }
+}

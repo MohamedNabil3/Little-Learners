@@ -1,0 +1,18 @@
+.CardHeader {
+  font-size: 22px;
+  color: #0a0a0a;
+  padding: 0 0.5em;
+  margin-top: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .CardHeader {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .CardHeader {
+    font-size: 28px;
+  }
+}

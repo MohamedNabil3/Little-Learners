@@ -1,0 +1,17 @@
+.Shape {
+  margin-bottom: 20px;
+  height: 76%;
+  width: 100px;
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .Shape {
+    height: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Shape {
+    height: 75%;
+  }
+}
