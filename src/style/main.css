@@ -872,12 +872,24 @@ hr {
     transform: translate(69%, 27%) !important;
     width: 0.9rem !important;
   }
-    .slick-list {
+  .slick-list {
     width: 100% !important;
     min-height: 1rem !important;
     margin: 0 auto !important;
     padding: 2rem 0 !important;
-    }
+  }
+
+  .Testimonials-container .prevBtn {
+    top: 92%;
+    right: 44%;
+    transform: translate(-30%, 92%);
+  }
+
+  .Testimonials-container .nextBtn {
+    top: 92%;
+    right: 44%;
+    transform: translate(118%, 92%);
+  }
 }
 @media (max-width: 321px) {
   .Navigatecard-container .LinkBtn {
@@ -889,10 +901,37 @@ hr {
     transform: translate(72%, 29%) !important;
     width: 0.8rem !important;
   }
-    .slick-list {
+  .slick-list {
     width: 100% !important;
     min-height: 1rem !important;
-    margin: 0 auto !important;
-    padding: 2rem 0 !important;
+    /* margin: 0 auto !important; */
+    /* padding: 2rem 0 !important; */
+  }
+
+  .Testimonials-container .prevBtn {
+    top: 92%;
+    right: 44%;
+    transform: translate(-38%, 92%);
+  }
+
+  .Testimonials-container .nextBtn {
+    top: 92%;
+    right: 44%;
+    transform: translate(144%, 92%);
   }
 }
+
+@media (max-width: 285px) {
+  .Testimonials-container .prevBtn {
+    top: 92%;
+    right: 44%;
+    transform: translate(117%, 92%);
+  }
+
+  .Testimonials-container .nextBtn {
+    top: 92%;
+    right: 44%;
+    transform: translate(144%, 92%);
+  }
+}
+
