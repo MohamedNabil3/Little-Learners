@@ -872,6 +872,12 @@ hr {
     transform: translate(69%, 27%) !important;
     width: 0.9rem !important;
   }
+    .slick-list {
+    width: 100% !important;
+    min-height: 1rem !important;
+    margin: 0 auto !important;
+    padding: 2rem 0 !important;
+    }
 }
 @media (max-width: 321px) {
   .Navigatecard-container .LinkBtn {
@@ -882,5 +888,11 @@ hr {
     left: 72% !important;
     transform: translate(72%, 29%) !important;
     width: 0.8rem !important;
+  }
+    .slick-list {
+    width: 100% !important;
+    min-height: 1rem !important;
+    margin: 0 auto !important;
+    padding: 2rem 0 !important;
   }
 }
