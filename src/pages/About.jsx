@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/about.css";
+import Welcome from "../components/About page Comps/Welcome.jsx";
 import Section from "../components/About page Comps/Section.jsx";
 import MissionVision from "../components/About page Comps/MissionVision.jsx";
 import Achievement from "../components/About page Comps/Achievement.jsx";
@@ -8,6 +9,7 @@ import Team from "../components/About page Comps/Team.jsx";
 function About() {
   return (
     <>
+    <Welcome/>
       <Section
         tag="Mission & Visions"
         title="Our Mission & Visions"
